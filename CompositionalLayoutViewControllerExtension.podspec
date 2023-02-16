@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CompositionalLayoutViewControllerExtension'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Extensions for CompositionalLayoutViewController with VIPER'
   s.swift_versions   = '5.5'
   s.description      = 'Some extensions for CompositionalLayoutViewController with VIPER.'
