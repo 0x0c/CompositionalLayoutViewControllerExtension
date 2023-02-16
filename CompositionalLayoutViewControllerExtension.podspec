@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/0x0c/CompositionalLayoutViewControllerExtension'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Akira' => 'akira.matsuda@me.com' }
+  s.author           = { 'Akira Matsuda' => 'akira.matsuda@me.com' }
   s.source           = { :git => 'https://github.com/0x0c/CompositionalLayoutViewControllerExtension.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'

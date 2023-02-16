@@ -22,7 +22,7 @@ pod 'CompositionalLayoutViewControllerExtension'
 
 ## Author
 
-akira.matsuda@me.com
+Akira Matsuda akira.matsuda@me.com
 
 ## License
 
