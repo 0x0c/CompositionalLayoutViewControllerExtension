@@ -8,6 +8,7 @@
 import CompositionalLayoutViewController
 import UIKit
 
+@MainActor
 public protocol CollectionViewInput: AnyObject {
     func update(sections: [CollectionViewSection])
 }
