@@ -13,7 +13,7 @@ public protocol CollectionViewInteractorInput: AnyObject {
 
     func store(_ sections: [CollectionViewSection]?)
     func store(@CollectionViewSectionBuilder _ sections: () -> [CollectionViewSection])
-    func section(for sectionIndex: Int) -> CollectionViewSection
+    func section(for sectionIndex: Int) -> CollectionViewSection?
 }
 
 public extension CollectionViewInteractorInput {
