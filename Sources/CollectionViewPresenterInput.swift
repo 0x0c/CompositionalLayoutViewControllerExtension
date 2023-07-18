@@ -10,7 +10,7 @@ import UIKit
 
 @MainActor
 public protocol CollectionViewPresenterInput: AnyObject {
-    var sections: [CollectionViewSection] { get }
+    var sections: [CollectionViewSection]? { get }
 
     func didItemSelect(indexPath: IndexPath)
 }
